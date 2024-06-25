@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 const { default: InventoryPage } = require("../pages/InventoryPage");
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
