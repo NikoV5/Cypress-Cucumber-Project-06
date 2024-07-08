@@ -1,11 +1,10 @@
 # Prerequisites
 
 After cloning repository, you need to install these dependencies:
-- NPM
+- Node Package Manager (NPM)
 - Cypress
 - Cucumber -> @badeball/cypress-cucumber-preprocessor
 - Cucumber -> @bahmutov/cypress-esbuild-preprocessor -D
-- dotenv dependency 
 
 If you dont have the extensions already installed in VScode, you will need these for cucumber to work:
 - Cucumber (Gherkin) Full Support -> Alexander Krechik
@@ -36,12 +35,4 @@ npm install @badeball/cypress-cucumber-preprocessor -D
 
 ```bash
 npm install @bahmutov/cypress-esbuild-preprocessor -D
-```
-
-## Install the dotenv dependency
-This is used to protect sensitive or environment-specific data
-
-Advantage: Secure and flexible test configurations
-```
-npm install dotenv -D
 ```
